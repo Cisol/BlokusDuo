@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/mainbackground"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="进入游戏"
+        android:background="@drawable/shape"
+        android:layout_above="@+id/helpBtn"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/helpBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="操作说明"
+        android:background="@drawable/shape"
+        android:layout_above="@+id/highScoreBtn"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出游戏"
+        android:id="@+id/exitBtn"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="游戏排名"
+        android:background="@drawable/shape"
+        android:layout_above="@+id/aboutBtn"
+        android:id="@+id/highScoreBtn"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关于游戏"
+        android:background="@drawable/shape"
+        android:id="@+id/aboutBtn"
+        android:layout_above="@+id/exitBtn"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

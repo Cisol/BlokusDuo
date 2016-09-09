@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Blokus Duo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="game_activity_lable">Blokus Duo</string>>
+    <string name="game_rule">操作说明：\n\n\t游戏开始时，你要把己方颜色的棋子从棋盘起点处依次摆放到棋盘上,
+                        每个棋子只能与同色棋子的棋角相连，不允许沿棋边贴着摆放。\n\t点击选择一个棋子后，该棋子
+                        会在棋盘正中央显示出来,你可以使用下方的形状变换按钮来调整棋子的形状，之后你可以将棋子
+                        拖动到你想要放置的地方，如果放置的位置不合规则，该棋子会回到棋盘中央。</string>>
+    <string name="about_game">游戏介绍：Blokus，又名德国围棋、格格不入、方块角斗士、方块竞技场，是Bernard Tavitian
+                        在2000年推出的两到四人对战的棋类游戏。棋子造型如俄罗斯方块从一方格到五方格组成形状大小
+                        各不同共二十一种，有红黄蓝绿四种颜色，分别为四位玩家所用。其中两名玩家进行对抗则称为
+                        Blokus Duo\n游戏版本：2.0 \n作者：ZhangMin</string>>
+</resources>
